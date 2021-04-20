@@ -201,7 +201,7 @@ export const chainColors: Record<string, any> = [
 // NOTE: This is as retrieved via the system.name RPC
 export const nodeColors: Record<string, any> = [
   ['Apron Node', nodeApron],
-  ['Hyperspace Node', nodeApron],
+  ['Hyperspace Node', nodeHyperspace],
   ['Bit.Country Node', nodeBitCountry],
   ['Bifrost Node', nodeBifrost],
   ['Canvas Node', nodeCanvas],
