@@ -1,9 +1,9 @@
 {
-  "name": "polkadot-apps",
+  "name": "metaverse-vm-apps",
   "repository": "https://github.com/polkadot-js/apps",
   "main": "packages/apps-electron/build/electron.js",
   "description": "An Apps portal into the Polkadot network",
-  "author": "Jaco Greeff <jacogr@gmail.com>",
+  "author": "viewfin <info@mvs.org>",
   "version": "0.88.2-1",
   "license": "Apache-2",
   "private": true,
