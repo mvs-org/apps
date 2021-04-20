@@ -34,14 +34,6 @@ export function createWsEndpoints (t: TFunction): LinkOption[] {
     {
       isDisabled: false,
       isHeader: true,
-      text: t('rpc.header.test.relay', 'Test relays & parachains', { ns: 'apps-config' }),
-      textBy: '',
-      value: ''
-    },
-    ...createRococo(t),
-    {
-      isDisabled: false,
-      isHeader: true,
       text: t('rpc.header.test', 'Test networks', { ns: 'apps-config' }),
       textBy: '',
       value: ''
