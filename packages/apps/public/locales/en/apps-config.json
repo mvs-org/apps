@@ -125,5 +125,6 @@
   "rpc.westlake": "Westlake",
   "rpc.zeitgeist": "Zeitgeist Battery Park",
   "rpc.zero": "Zero",
-  "ss58.default": "Default for the connected node"
+  "ss58.default": "Default for the connected node",
+  "vm.mvs.org": "Metaverse Hyperspace"
 }

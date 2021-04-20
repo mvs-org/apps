@@ -7,7 +7,7 @@
 set -e
 
 # the docker image name and dockerhub repo
-NAME="polkadot-js-apps"
+NAME="metaverse-vm-apps"
 REPO="jacogr"
 
 # extract the current npm version from package.json
