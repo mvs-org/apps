@@ -43,6 +43,7 @@ import laminar from './laminar';
 import litentry from './litentry';
 import manta from './manta';
 import moonbeam from './moonbeam';
+import hyperspace from './metaverse-hyperspace';
 import mybank from './mybank';
 import nftmart from './nftmart';
 import nodle from './nodle';
@@ -118,6 +119,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'hack-hydra-dx': hydrate,
   hanonycash,
   'hydra-dx': hydrate,
+  Hyperspace: hyperspace,
   idavoll,
   'integritee-parachain': integritee,
   'jupiter-prep': jupiter,
