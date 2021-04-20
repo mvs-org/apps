@@ -23,6 +23,15 @@ export function createWsEndpoints (t: TFunction): LinkOption[] {
     },
     ...createProduction(t),
     {
+      isDevelopment: true,
+      isDisabled: false,
+      isHeader: true,
+      text: t('rpc.header.dev', 'Custom ', { ns: 'apps-config' }),
+      textBy: '',
+      value: ''
+    },
+    ...createDev(t),
+    {
       isDisabled: false,
       isHeader: true,
       text: t('rpc.header.test.relay', 'Test relays & parachains', { ns: 'apps-config' }),
@@ -38,15 +47,6 @@ export function createWsEndpoints (t: TFunction): LinkOption[] {
       value: ''
     },
     ...createTesting(t),
-    {
-      isDevelopment: true,
-      isDisabled: false,
-      isHeader: true,
-      text: t('rpc.header.dev', 'Development', { ns: 'apps-config' }),
-      textBy: '',
-      value: ''
-    },
-    ...createDev(t),
     ...createOwn(t)
   ].filter(({ isDisabled }) => !isDisabled);
 }
