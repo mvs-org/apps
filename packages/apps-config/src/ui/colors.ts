@@ -10,6 +10,7 @@ const emptyColor = '#99999';
 // based on chain name
 // alphabetical
 const chainApron = 'linear-gradient(45deg, #0099F7 0%, #2E49EB 100%)';
+const chainHyperspace = 'linear-gradient(45deg, #0099F7 0%, #2E49EB 100%)';
 const chainBitCountry = '#191a2e';
 const chainBeastEave = '#900048';
 const chainCrab = '#7C30DD';
@@ -70,6 +71,7 @@ const chainWestlake = 'linear-gradient(-90deg, #9400D3 0%, #5A5CA9 50%, #00BFFF 
 // based on node name
 // alphabetical
 const nodeApron = 'linear-gradient(45deg, #0099F7 0%, #2E49EB 100%)';
+const nodeHyperspace = 'linear-gradient(45deg, #0099F7 0%, #2E49EB 100%)';
 const nodeBitCountry = '#191a2e';
 const nodeBifrost = '#002cc3';
 const nodeCanvas = '#c77cff';
@@ -113,6 +115,7 @@ export const chainColors: Record<string, any> = [
   ['acala mandala pc1', chainRoccoAcala],
   ['acala mandala pc2', chainRoccoAcala],
   ['Apron PC1', chainApron],
+  ['Metaverse Hyperspace', chainHyperspace],
   ['Ares PC1', chainRoccoAres],
   ['Bifrost PC1', chainRoccoBifrost],
   ['Bit.Country Tewai Chain', chainBitCountry],
@@ -198,6 +201,7 @@ export const chainColors: Record<string, any> = [
 // NOTE: This is as retrieved via the system.name RPC
 export const nodeColors: Record<string, any> = [
   ['Apron Node', nodeApron],
+  ['Hyperspace Node', nodeApron],
   ['Bit.Country Node', nodeBitCountry],
   ['Bifrost Node', nodeBifrost],
   ['Canvas Node', nodeCanvas],
