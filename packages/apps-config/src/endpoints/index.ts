@@ -7,7 +7,6 @@ import type { LinkOption } from '../settings/types';
 import { createCustom, createDev, createOwn } from './development';
 import { createProduction } from './production';
 import { createTesting } from './testing';
-import { createRococo } from './testingRococo';
 
 export { CUSTOM_ENDPOINT_KEY } from './development';
 
